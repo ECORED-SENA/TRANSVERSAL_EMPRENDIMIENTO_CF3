@@ -406,13 +406,26 @@
         .col
           p Al tratarse de un proceso de planeación, el plan de marketing exige un seguimiento estricto para hacer seguimiento de la ejecución del plan y, en caso contrario, aplicar medidas correctivas.
 
-          
+    .tarjeta.tarjeta--morada.bg-2.p-3.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/ilustraciones/info.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 Plan de Marketing
+              p PDF 
+            .col-sm-auto
+              a.boton.boton--b(:href="('/downloads/CF3 tema_4_plan de marketing_pag17.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download             
+
 </template>
 
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
-  name: 'Tema3',
+  name: 'Tema4',
   components: {
     BannerInterno,
   },

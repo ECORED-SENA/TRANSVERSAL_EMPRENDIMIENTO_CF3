@@ -2,7 +2,6 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-
     .titulo-principal
       .h3 1. Plan de negocios
     .row.justify-content-center.align-items-center
@@ -179,6 +178,20 @@
       button.carousel-control-next(type='button' data-bs-target='#carouselExampleControlsNoTouching1' data-bs-slide='next')
         span.carousel-control-next-icon(aria-hidden='true')
         span.visually-hidden Next
+
+    .tarjeta.tarjeta--morada.bg-2.p-3.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/ilustraciones/info.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 Plan de negocios
+              p PDF 
+            .col-sm-auto
+              a.boton.boton--b(:href="('/downloads/CF3 tema_1_plan de negocios_pag3-4.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download
 
 </template>
 

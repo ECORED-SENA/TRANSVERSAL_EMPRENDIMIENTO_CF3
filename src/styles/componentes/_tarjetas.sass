@@ -20,7 +20,7 @@
     background-color: $color-sistema-e
 
   &--roja
-    background-color: $color-curso-c
+    background-color: $color-curso-b
     *
       color: $white
 
@@ -42,12 +42,21 @@
     transition: background-color 0.3s ease-in-out 
 
     &:active, &:focus, &:hover
-      background-color: $color-curso-c
+      background-color: $color-curso-b
       *
-        color: #111E61
+        color: $white
+        
+  &--tabla
+    background-color: $color-sistema-e
+    &:nth-child(even)
+      background-color: $color-sistema-g
 
+  
+  
+  
 // TARJETAS CON AVATAR
-.tarjeta-Avatar 
+.tarjeta-Avatar
+  height: 100%
   img
     display: block
     width: 40%
@@ -56,3 +65,4 @@
   .tarjeta
     padding-top: 60px !important
     margin-top: -50px
+    height: calc(100% - 50px)

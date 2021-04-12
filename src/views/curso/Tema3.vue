@@ -428,6 +428,19 @@
                     img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
             .list__txt    
                 p.m-top La liquidación; se refiere a que, en determinadas situaciones, es preferible dejar de operar que seguir perdiendo dinero.
+    .tarjeta.tarjeta--morada.bg-2.p-3.mt-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/ilustraciones/info.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              .h5.mb-0 Estrategias organizacionales
+              p PDF 
+            .col-sm-auto
+              a.boton.boton--b(:href="('/downloads/tema_3.5_estrategias organizacionales_pag13-14.pdf')" target="_blank")
+                span Descargar
+                i.fas.fa-file-download                
 
 </template>
 
