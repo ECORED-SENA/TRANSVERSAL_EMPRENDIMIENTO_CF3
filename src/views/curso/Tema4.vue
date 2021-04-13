@@ -8,7 +8,7 @@
     
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
-        img.img-a(src='@/assets/ilustraciones/img26.png', alt='')
+        img.img-t.img-a(src='@/assets/ilustraciones/img26.png', alt='')
       .col-12.col-md-6
         .h4 Factores externos de mercado.
         p Son las variables del entorno que no se pueden controlar desde la empresa e inciden de manera directa e indirecta en la comercialización, como las leyes, el medio ambiente, la situación política, cultural y social, la competencia, los segmentos y los avances tecnológicos entre otros. 
@@ -18,7 +18,7 @@
         .h4.text-izq Factores internos de mercado.
         p.text-izq Son aquellos elementos controlables por la empresa que se aplican para satisfacer las necesidades del consumidor: precio, producto, promoción y distribución, también conocidos como el mix de marketing. 
       .col-12.col-md-6
-        img.img-a(src='@/assets/ilustraciones/img27.png', alt='')
+        img.img-t.img-a(src='@/assets/ilustraciones/img27.png', alt='')
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
@@ -35,7 +35,7 @@
   
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
-        img.img-a(src='@/assets/ilustraciones/img27.png', alt='')
+        img.img-t.img-a(src='@/assets/ilustraciones/img27.png', alt='')
       .col-12.col-md-6
         .list.mt-3
           .list__item
@@ -65,7 +65,7 @@
     p.mt-5 Esto se lleva a cabo con el fin de vigilar y evaluar los resultados, analizando factores cuantitativos como las ventas y la rentabilidad, y factores cualitativos como el posicionamiento de marca. 
     p.mt-5 #[strong La siguiente imagen nos muestra, de manera gráfica, qué es un plan de marketing.]
     p.mt-5 #[strong Plan de Marketing]
-    img.img-a.mt-5(src='@/assets/ilustraciones/img29.png', alt='')
+    img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img29.png', alt='')
 
     p.mt-5 #[strong Los propósitos del plan de marketing son: ]
 
@@ -73,18 +73,18 @@
       .col-12.col-md-3.card-white
         .row
           .col-auto
-            img.img-a(src='@/assets/ilustraciones/a.svg', alt='') 
+            img.img-t.mt-2(src='@/assets/ilustraciones/a.svg', alt='') 
             p.mt-3 Definir el segmento de mercado en el que el emprendimiento centrará sus actividades.
       
       .col-12.col-md-3.card-white
         .row
           .col-auto
-            img.img-a(src='@/assets/ilustraciones/b.svg', alt='')  
+            img.img-t.mt-2(src='@/assets/ilustraciones/b.svg', alt='')  
             p.mt-3 Definir las variables del mix de marketing.     
       .col-12.col-md-3.card-white
         .row
           .col-auto
-            img.img-a(src='@/assets/ilustraciones/c.svg', alt='') 
+            img.img-t.mt-2(src='@/assets/ilustraciones/c.svg', alt='') 
             p.mt-3 Alinear los objetivos estratégicos con el plan financiero.
       
     .mt-5#t_4_2
@@ -169,14 +169,18 @@
         p Existen demasiados competidores muy agresivos con los cuales no es posible competir para un emprendimiento; o las rentabilidades que se manejan en un determinado segmento, pueden no ser atractivas para otras empresas; o los compradores coaccionan para que el precio baje de manera importante, llegando a tener que vender a pérdida en un producto, para poder ganar un margen importante en otros.
 
     .mt-5.h5 4.2.2 Planificación de objetivos para el siguiente periodo  
-    .row.justify-content-center.align-items-center.mt-5
-      .col-auto
-        img.img-a(src='@/assets/ilustraciones/img31.png', alt='')
-      .col
+    .row.align-items-center.mt-5
+      .col-1    
+
+      .col-12.col-md-2
+        img.img-t.img-a(src='@/assets/ilustraciones/img31.png', alt='')
+      .col-12.col-md-7
         p Partiendo del análisis de resultados del periodo anterior, se planifican los objetivos para el siguiente periodo en relación con: 
 
 
     .row.justify-content-center.align-items-center.mt-5
+      .col-1    
+
       .col-auto
         img.img-a(src='@/assets/ilustraciones/img35.png', alt='')
       .col
@@ -189,15 +193,16 @@
         .p-text.mt-2 #[strong Las ventas:] se determinan los niveles de ventas que se esperan alcanzar en un periodo específico.  
 
     .mt-5.h5  4.2.3 Formulación de estrategias 
-    .row.justify-content-center.align-items-center.mt-5
-      .col-auto
-        img.img-a(src='@/assets/ilustraciones/img32.png', alt='')
-      .col
+    .row.align-items-center.mt-5
+      .col-1    
+      .col-12.col-md-2
+        img.img-t.img-a(src='@/assets/ilustraciones/img32.png', alt='')
+      .col-12.col-md-6
         p En esta etapa se definen las estrategias que aplicará la empresa para lograr los objetivos propuestos.
         p Es así como después de realizar este análisis situacional, el emprendedor se decide por su segmento de mercado meta y se analiza la forma que le ayudará a llegar a este mercado.
 
     p.my-5.text-center #[strong Para realizarlo puede utilizar:]
-    img.img-a(src='@/assets/ilustraciones/img36.png', alt='')
+    img.img-t.img-a(src='@/assets/ilustraciones/img36.png', alt='')
     .row.my-5
       .col-auto
         .p-text-1 Estrategias de Marketing
@@ -393,17 +398,19 @@
           p.m-top #[strong Relaciones públicas:]  uso de la información para influir positivamente en la opinión pública.
 
     .mt-5.h5  4.2.4 Presupuesto comercial 
-      .row.justify-content-center.align-items-center.mt-5
-        .col-auto
+      .row.align-items-center.mt-5
+        .col-1
+        .col-12.col-md-2
           img(src='@/assets/ilustraciones/img42.png', alt='')
-        .col
+        .col-12.col-md-6
           p Del conjunto de objetivos, estrategias y acciones definidas, surge el presupuesto comercial en el cual se destinan los recursos necesarios para el plan de marketing. 
     
     .mt-5.h5  4.2.5 Control y seguimiento 
-      .row.justify-content-center.align-items-center.mt-5
-        .col-auto
+      .row.align-items-center.mt-5
+        .col-1
+        .col-12.col-md-2
           img(src='@/assets/ilustraciones/img43.png', alt='')
-        .col
+        .col-12.col-md-6
           p Al tratarse de un proceso de planeación, el plan de marketing exige un seguimiento estricto para hacer seguimiento de la ejecución del plan y, en caso contrario, aplicar medidas correctivas.
 
     .tarjeta.tarjeta--morada.bg-2.p-3.mt-5

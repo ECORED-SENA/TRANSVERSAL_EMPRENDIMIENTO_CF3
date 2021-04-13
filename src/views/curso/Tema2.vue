@@ -24,9 +24,9 @@
     .mt-5#t_2_1
       .h4 2.1 Características de una empresa 
     p Las empresas se caracterizan por ser:
-    img.img-a.mt-5(src='@/assets/ilustraciones/img5.png', alt='') 
+    img.img-a.img-t.mt-5(src='@/assets/ilustraciones/img5.png', alt='') 
     p.mt-5 Esto significa que dirigir una empresa implica:
-    img.img-a.mt-5(src='@/assets/ilustraciones/img6.png', alt='') 
+    img.img-a.img-t.mt-5(src='@/assets/ilustraciones/img6.png', alt='') 
     p.mt-5 Por lo tanto, al momento de definir un negocio, es necesario establecer una dirección a largo plazo, a través de una visión estratégica eficiente que permita: 
 
     .row.justify-content-center.align-items-stretch.my-5
@@ -35,27 +35,27 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/ilustraciones/img7.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img7.png', alt='')
 
-          p.text-center Definir el negocio y su visión
+          p Definir el negocio y su visión
   
       .col-4.mb-4.mb-lg-0
         .tarjeta.tarjeta--boton.p-4
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/ilustraciones/img8.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img8.png', alt='')
 
-          p.text-center Establecer los objetivos estratégicos y sus metas
+          p Establecer los objetivos estratégicos y sus metas
 
       .col-4.mb-4.mb-lg-0
         .tarjeta.tarjeta--boton.p-4
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/ilustraciones/img9.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img9.png', alt='')
 
-          p.text-center Formular estrategias y planes de acción
+          p Formular estrategias y planes de acción
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
@@ -83,11 +83,11 @@
     .row.justify-content-center.align-items-stretch.mt-5
       .col-12.col-md-4
         p esto solo es posible mediante la organización de recursos físicos y la coordinación de actividades que el capital humano debe llevar a cabo y, de esta forma, la organización busca la eficiencia y la coordinación de los recursos.
-      .col-12.col-md-8
+      .col-12.col-md-7
         .row
           .col-12.mb-5.mb-lg-0
             .bloque-texto-b.p-4
-              .bloque-texto-b__texto.h2.mb-0.b-text La organización define y concreta la forma como va a operar la empresa
+              .bloque-texto-b__texto.h2.mb-0.b-text.text-der La organización define y concreta la forma como va a operar la empresa
         .list
           .list__item
               .list__item__icon
@@ -181,7 +181,7 @@
           p Se logra mediante la división y agrupación de las funciones y actividades en unidades específicas, las cuales permiten a la empresa desempeñar sus actividades. 
 
           p En cada empresa es posible aplicar diferentes tipos de departamentalización; entre los más usuales se observan: 
- 
+
           .list.mt-5
             .list__item
                 .list__item__icon
@@ -254,18 +254,18 @@
           .row.mb-3
             .col-7
               figure
-                img.img-a(src='@/assets/ilustraciones/img12.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img12.png', alt='')
           .h4 Organización lineal 
-          p.text-center La toma de decisiones se concentra en una sola persona, quien tiene la responsabilidad de mando en toda la organización. 
+          p La toma de decisiones se concentra en una sola persona, quien tiene la responsabilidad de mando en toda la organización. 
   
       .col-6.mb-4.mb-lg-0
         .tarjeta.tarjeta--boton.p-4
           .row.mb-3
             .col-7
               figure
-                img.img-a(src='@/assets/ilustraciones/img13.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img13.png', alt='')
           .h4 Organización funcional
-          p.text-center Se divide por especialidades, una por cada actividad principal; por ejemplo, cartera, tesorería, contabilidad, sistemas, etc.
+          p Se divide por especialidades, una por cada actividad principal; por ejemplo, cartera, tesorería, contabilidad, sistemas, etc.
 
     .row.justify-content-center.align-items-stretch.my-5
       .col-6.mb-4.mb-lg-0
@@ -273,19 +273,19 @@
           .row.mb-3
             .col-7
               figure
-                img.img-a(src='@/assets/ilustraciones/img14.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img14.png', alt='')
           .h4 Organización por comités
 
-          p.text-center Se asignan diversos asuntos a un cuerpo de personas que se reúnen y se comprometen a decidir de forma conjunta.
+          p Se asignan diversos asuntos a un cuerpo de personas que se reúnen y se comprometen a decidir de forma conjunta.
 
       .col-6.mb-4.mb-lg-0
         .tarjeta.tarjeta--boton.p-4
           .row.mb-3
             .col-7
               figure
-                img.img-a(src='@/assets/ilustraciones/img15.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img15.png', alt='')
           .h4 Organización matricial o de proyecto
-          p.text-center Donde se designa un gerente funcional para un proyecto y él combina la departamentalización del proyecto, con las funciones y, al mismo tiempo, es responsable por los resultados del proyecto.
+          p Donde se designa un gerente funcional para un proyecto y él combina la departamentalización del proyecto, con las funciones y, al mismo tiempo, es responsable por los resultados del proyecto.
 
 
 

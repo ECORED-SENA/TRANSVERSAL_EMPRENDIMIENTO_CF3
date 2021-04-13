@@ -14,40 +14,40 @@
 
     .row.justify-content-center.align-items-stretch.mt-5
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
-        .row.justify-content-center.align-items-center.mb-3
+        .row.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img16.png', alt='')
-        p.text-center Misión Organizacional
+              img.img-t(src='@/assets/ilustraciones/img16.png', alt='')
+        p Misión Organizacional
 
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1    
-        .row.justify-content-center.align-items-center.mb-3
+        .row.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img17.png', alt='')
-        p.text-center Visión Organizacional  
+              img.img-t(src='@/assets/ilustraciones/img17.png', alt='')
+        p Visión Organizacional  
 
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
-        .row.justify-content-center.align-items-center.mb-3
+        .row.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img18.png', alt='')
-        p.text-center Filosofía Organizacional 
+              img.img-t(src='@/assets/ilustraciones/img18.png', alt='')
+        p Filosofía Organizacional 
 
     .row.justify-content-center.align-items-stretch
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1        
-        .row.justify-content-center.align-items-center.mb-3
+        .row.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img19.png', alt='')
-        p.text-center Objetivos Organizacionales 
+              img.img-t(src='@/assets/ilustraciones/img19.png', alt='')
+        p Objetivos Organizacionales 
 
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
-        .row.justify-content-center.align-items-center.mb-3
+        .row.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img20.png', alt='')
-        p.text-center Estrategias Organizacionales
+              img.img-t(src='@/assets/ilustraciones/img20.png', alt='')
+        p Estrategias Organizacionales
 
     p.text-center Analicemos cada una de las herramientas.
 
@@ -96,49 +96,65 @@
             button(type='button' data-bs-target='#carouselExampleControlsNoTouching' data-bs-slide-to='7' aria-label='Slide 8')
           .carousel-inner
             .carousel-item.active
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuál es el negocio? 
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuál es el negocio? 
 
             .carousel-item
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Para qué existe la empresa? 
-
-
-            .carousel-item
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuáles son los elementos diferenciadores? 
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Para qué existe la empresa? 
 
 
             .carousel-item
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuáles son los productos y servicios ofrecidos?
-
-            .carousel-item
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Quiénes son nuestros clientes?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuáles son los elementos diferenciadores? 
 
 
             .carousel-item
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuáles son los mercados presentes y futuros?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuáles son los productos y servicios ofrecidos?
+
+            .carousel-item
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Quiénes son nuestros clientes?
 
 
             .carousel-item
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuáles son los compromisos de los #[i stakeholders?] 
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuáles son los mercados presentes y futuros?
 
 
             .carousel-item
-              p.t-color Para definir la misión, es necesario responder las siguientes preguntas:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuáles son los canales de distribución, presentes y futuros?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuáles son los compromisos de los #[i stakeholders?] 
+
+
+            .carousel-item
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Para definir la misión, es necesario responder las siguientes preguntas:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuáles son los canales de distribución, presentes y futuros?
 
 
           button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControlsNoTouching' data-bs-slide='prev')
@@ -164,7 +180,7 @@
         .list
           .list__item
               .list__item__icon
-                  img.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
+                  img.img-t.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
           .list__txt    
               p.m-top Expresa la imagen de la empresa en el futuro, explica cómo se proyecta y debe reflejar de forma clara y precisa, el enfoque hacia los grupos de interés. 
         img.img-a.mt-3(src='@/assets/ilustraciones/img21.png', alt='')
@@ -180,34 +196,46 @@
             button(type='button' data-bs-target='#carouselExampleControlsNoTouching1' data-bs-slide-to='5' aria-label='Slide 6')
           .carousel-inner
             .carousel-item.active
-              p.t-color Algunas preguntas que permiten definir la visión de la empresa son: 
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuál es la imagen que se espera que tengan los clientes del negocio en el futuro?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Algunas preguntas que permiten definir la visión de la empresa son: 
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuál es la imagen que se espera que tengan los clientes del negocio en el futuro?
 
             .carousel-item
-              p.t-color Algunas preguntas que permiten definir la visión de la empresa son: 
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cómo será el negocio en el futuro?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Algunas preguntas que permiten definir la visión de la empresa son: 
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cómo será el negocio en el futuro?
 
             .carousel-item
-              p.t-color Algunas preguntas que permiten definir la visión de la empresa son:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuáles son las metas de la empresa a corto, mediano y largo plazo?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Algunas preguntas que permiten definir la visión de la empresa son:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuáles son las metas de la empresa a corto, mediano y largo plazo?
 
             .carousel-item
-              p.t-color Algunas preguntas que permiten definir la visión de la empresa son:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Cuáles serían los artículos claves del negocio, para competir en el futuro?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Algunas preguntas que permiten definir la visión de la empresa son:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Cuáles serían los artículos claves del negocio, para competir en el futuro?
 
             .carousel-item
-              p.t-color Algunas preguntas que permiten definir la visión de la empresa son:  
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Qué actividades se esperan desarrollar en el futuro?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Algunas preguntas que permiten definir la visión de la empresa son:  
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Qué actividades se esperan desarrollar en el futuro?
 
             .carousel-item
-              p.t-color Algunas preguntas que permiten definir la visión de la empresa son: 
-              img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
-              p.my-4.t-color ¿Qué innovación podría aplicarse a los productos o servicios que ofrece la empresa?
+              .row.justify-content-center.align-items-center
+                .col-9             
+                  p.text-white Algunas preguntas que permiten definir la visión de la empresa son: 
+                  img.mt-4.t-img.img-a(src='@/assets/ilustraciones/q.svg', alt='')
+                  p.my-4.t-color ¿Qué innovación podría aplicarse a los productos o servicios que ofrece la empresa?
 
           button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControlsNoTouching1' data-bs-slide='prev')
             span.carousel-control-prev-icon(aria-hidden='true')
@@ -236,7 +264,7 @@
                   img.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
           .list__txt    
               p.m-top Representa la ideología que caracteriza a la empresa, e incluye sus principios y valores, un conjunto de creencias que la organización respeta y observa y que se orientan hacia la generación de valor para los mercados y la sociedad. 
-        img.img-a.mt-3(src='@/assets/ilustraciones/img22.png', alt='')
+        img.img-t.img-a.mt-3(src='@/assets/ilustraciones/img22.png', alt='')
       .col-12.col-md-6.bg-2.p-4
         p.text-white Para Chiavenato y Sapiro (2017), los principios hablan de todo aquello en lo que no se está dispuesto a transigir, como la ética y la honestidad. Los valores de la organización corresponden a sus atributos y las virtudes apreciadas, como la práctica de la transparencia, el respeto a la diversidad, la cultura de la calidad o el respeto al medio ambiente (p.56).
 
@@ -251,7 +279,7 @@
           .list__txt    
               p.m-top Se comprenden como la situación deseada que la organización pretende alcanzar, se asocian con la misión y la visión organizacional y se orientan hacia el logro de la eficiencia, en la medida en que estos se cumplen y se identifican con el rol de la organización en la sociedad.
 
-        img.img-a.mt-3(src='@/assets/ilustraciones/img23.png', alt='')
+        img.img-t.img-a.mt-3(src='@/assets/ilustraciones/img23.png', alt='')
 
     .mt-5#t_3_5
       .h4 3.5 Estrategias organizacionales
@@ -265,7 +293,7 @@
           .list__txt    
               p.m-top Son una serie de programas de acción que utilizan los empresarios, con el objetivo de ubicar recursos y conseguir resultados específicos de largo plazo y, definir así, lo que es y será la compañía en el futuro. De esta forma se busca de manera concreta, la solución a una problemática o necesidad que se tenga y así superar a los competidores.
 
-        img.img-a.mt-3(src='@/assets/ilustraciones/img24.png', alt='')
+        img.img-t.img-a.mt-3(src='@/assets/ilustraciones/img24.png', alt='')
       .col-12.col-md-6.bg-2.p-4
         p.text-white Con las estrategias genéricas se busca maximizar la rentabilidad, la competitividad, la productividad, la calidad, la participación del mercado, el crecimiento y la expansión de la organización, proteger los activos de la organización, reducir los costos y gastos, aminorar la exposición al riesgo y la supervivencia futura de la organización.
 
@@ -318,7 +346,7 @@
 
     p.mt-5 #[strong Las estrategias que se implementan a nivel organizacional, se subdividen en las que se observan a continuación:]
 
-    img.img-a.mt-5(src='@/assets/ilustraciones/img25.png', alt='')
+    img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img25.png', alt='')
     P.mt-5 Amplifiquemos la información sobre cada una de ellas.
     .d-flex.align-items-start.mt-5
       #v-pills-tab.nav.flex-column.nav-pills.me-3(role='tablist' aria-orientation='vertical')
