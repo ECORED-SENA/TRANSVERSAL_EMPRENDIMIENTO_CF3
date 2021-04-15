@@ -10,7 +10,7 @@
       .col-12.col-md-6
         img.img-t(src='@/assets/ilustraciones/img2.png', alt='')
 
-    p.mt-5 Este plan cuenta con múltiples puntos de vista, que inciden en las actividades del negocio y, entre ellos, se ubican los siguientes:    
+    p.mt-5 Este plan cuenta con múltiples #[b puntos de vista], que inciden en las actividades del negocio y, entre ellos, se ubican los siguientes:    
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
         .list
@@ -229,7 +229,7 @@
               .h5.mb-0 Plan de negocios
               p PDF 
             .col-sm-auto
-              a.boton.boton--b(:href="('/downloads/CF3 tema_1_plan de negocios_pag3-4.pdf')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/downloads/CF3 tema_1_plan de negocios_pag3-4.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

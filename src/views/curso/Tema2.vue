@@ -44,7 +44,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img.img-t(src='@/assets/ilustraciones/img8.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img9.png', alt='')
 
           p Establecer los objetivos estratégicos y sus metas
 
@@ -53,7 +53,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img.img-t(src='@/assets/ilustraciones/img9.png', alt='')
+                img.img-t(src='@/assets/ilustraciones/img8.png', alt='')
 
           p Formular estrategias y planes de acción
 
@@ -69,7 +69,11 @@
 
     .mt-5#t_2_2
       .h4 2.2 Áreas funcionales 
-    figure 
+    p En todas las empresas existen áreas funcionales, las cuales pueden variar de acuerdo con la estructura organizacional, la segregación de funciones, las responsabilidades, el objeto de la compañía, los controles, etc., pero todas deben interactuar de forma conjunta y coordinada, para alcanzar los diversos objetivos que la organización se plantea.
+
+    p.mt-3 Aunque tienen metas y características determinadas, actúan conjuntamente:
+
+    figure.mt-5 
       .video    
         iframe(width="560" height="315" src="https://www.youtube.com/embed/sTsB_AUft-U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -188,25 +192,25 @@
                     img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
             .list__txt    
                 p.m-top Por funciones.
-          .list
+          .list.mt-3
             .list__item
                 .list__item__icon
                     img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
             .list__txt    
                 p.m-top Por productos.
-          .list
+          .list.mt-3
             .list__item
                 .list__item__icon
                     img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
             .list__txt    
                 p.m-top Por ubicación geográfica.
-          .list
+          .list.mt-3
             .list__item
                 .list__item__icon
                     img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
             .list__txt    
                 p.m-top Por tipo de clientes.
-          .list
+          .list.mt-3
             .list__item
                 .list__item__icon
                     img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
@@ -247,7 +251,7 @@
     .mt-5#t_2_4
       .h4 2.4 Tipología de la organización 
     p Cuando se habla de tipología de la organización, se refiere a sistemas o modelos de estructuras organizacionales que se pueden implementar en una organización, las cuales dependen de factores como la actividad principal de la empresa, la magnitud de la misma, los objetivos, el tipo de producción, etc. 
-
+    p.text-center.mt-5.t-size Los tipos más usuales son: 
     .row.justify-content-center.align-items-stretch.my-5
       .col-6.mb-4.mb-lg-0
         .tarjeta.tarjeta--boton.p-4

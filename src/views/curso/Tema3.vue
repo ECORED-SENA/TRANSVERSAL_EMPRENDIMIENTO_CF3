@@ -55,28 +55,28 @@
       .h4 3.1 Misión organizacional 
     .row.justify-content-center.align-items-stretch.mt-3
       .col-12.col-md-6.bg-1.p-4
-        .list
+        .list.mt-3
           .list__item
               .list__item__icon
                   img.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
           .list__txt    
               p.m-top Define cuál es la razón de ser de la empresa y representa las aspiraciones fundamentales o finalidades que persigue, de forma permanente o semipermanente. 
 
-        .list
+        .list.mt-3
           .list__item
               .list__item__icon
                   img.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
           .list__txt    
               p.m-top Permite distinguir la organización de los demás y sirve como marco de evaluación. Debe ser clara e informar cuales son los elementos diferenciadores. 
 
-        .list
+        .list.mt-3
           .list__item
               .list__item__icon
                   img.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
           .list__txt    
               p.m-top Se alinea con los objetivos estratégicos, las políticas estratégicas, la planeación táctica y los planes a corto y largo plazo.
 
-        .list
+        .list.my-3
           .list__item
               .list__item__icon
                   img.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
@@ -347,7 +347,7 @@
     p.mt-5 #[strong Las estrategias que se implementan a nivel organizacional, se subdividen en las que se observan a continuación:]
 
     img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img25.png', alt='')
-    P.mt-5 Amplifiquemos la información sobre cada una de ellas.
+    P.mt-5 #[b Amplifiquemos la información sobre cada una de ellas.]
     .d-flex.align-items-start.mt-5
       #v-pills-tab.nav.flex-column.nav-pills.me-3(role='tablist' aria-orientation='vertical')
         button#v-pills-intensivistas-tab.nav-link.active(data-bs-toggle='pill' data-bs-target='#v-pills-intensivistas' type='button' role='tab' aria-controls='v-pills-intensivistas' aria-selected='true') Estrategias intensivistas.
@@ -466,7 +466,7 @@
               .h5.mb-0 Estrategias organizacionales
               p PDF 
             .col-sm-auto
-              a.boton.boton--b(:href="('/downloads/tema_3.5_estrategias organizacionales_pag13-14.pdf')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/downloads/tema_3.5_estrategias organizacionales_pag13-14.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download                
 

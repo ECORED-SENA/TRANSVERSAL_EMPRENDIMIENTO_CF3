@@ -10,12 +10,12 @@
       .col-12.col-md-6
         img.img-t.img-a(src='@/assets/ilustraciones/img26.png', alt='')
       .col-12.col-md-6
-        .h4 Factores externos de mercado.
+        .h4.t-size Factores externos de mercado.
         p Son las variables del entorno que no se pueden controlar desde la empresa e inciden de manera directa e indirecta en la comercialización, como las leyes, el medio ambiente, la situación política, cultural y social, la competencia, los segmentos y los avances tecnológicos entre otros. 
 
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
-        .h4.text-izq Factores internos de mercado.
+        .h4.t-size.text-izq Factores internos de mercado.
         p.text-izq Son aquellos elementos controlables por la empresa que se aplican para satisfacer las necesidades del consumidor: precio, producto, promoción y distribución, también conocidos como el mix de marketing. 
       .col-12.col-md-6
         img.img-t.img-a(src='@/assets/ilustraciones/img27.png', alt='')
@@ -65,7 +65,7 @@
     p.mt-5 Esto se lleva a cabo con el fin de vigilar y evaluar los resultados, analizando factores cuantitativos como las ventas y la rentabilidad, y factores cualitativos como el posicionamiento de marca. 
     p.mt-5 #[strong La siguiente imagen nos muestra, de manera gráfica, qué es un plan de marketing.]
     p.mt-5 #[strong Plan de Marketing]
-    img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img29.png', alt='')
+    img.img-t.img-a.mt-5(src='@/assets/ilustraciones/img29.svg', alt='')
 
     p.mt-5 #[strong Los propósitos del plan de marketing son: ]
 
@@ -95,21 +95,21 @@
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img30.png', alt='')
-        p.text-center Análisis de la situación actua
+              img.img-t.img-a(src='@/assets/ilustraciones/img30.png', alt='')
+        p.text-center Análisis de la situación actual
 
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1    
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img31.png', alt='')
+              img.img-t.img-a(src='@/assets/ilustraciones/img31.png', alt='')
         p.text-center Planificación de objetivos para el iguiente periodo
 
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img32.png', alt='')
+              img.img-t.img-a(src='@/assets/ilustraciones/img32.png', alt='')
         p.text-center Formulación de estrategias
 
     .row.justify-content-center.align-items-stretch
@@ -117,15 +117,15 @@
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img33.png', alt='')
+              img.img-t.img-a(src='@/assets/ilustraciones/img33.png', alt='')
         p.text-center Presupuesto comercial
 
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
-              img.img-a(src='@/assets/ilustraciones/img34.png', alt='')
-        p.text-center Control y seguimiento
+              img.img-t.img-a(src='@/assets/ilustraciones/img34.png', alt='')
+        p.text-center.mt-5 Control y seguimiento
 
     p.text-center Profundicemos el estudio de cada una de las etapas.       
 
@@ -135,24 +135,24 @@
         img.img-a(src='@/assets/ilustraciones/img30.png', alt='')
       .col
         p En esta sección se analizan los resultados obtenidos con la aplicación de las políticas de producto, precio, promoción y distribución, adoptadas para atender el mercado. Así mismo, se realiza el análisis del cumplimiento de metas frente a los objetivos planeados, y se realiza la evaluación del segmento del mercado con respecto a: 
-        .list.mt-3
-          .list__item
-              .list__item__icon
-                  img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
-          .list__txt    
-              p.m-top Tamaño y crecimiento de los segmentos: obtener y analizar datos de las ventas actuales del segmento, tasas de crecimiento y rentabilidad esperada de diversos segmentos.
-        .list.mt-3
-          .list__item
-              .list__item__icon
-                  img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
-          .list__txt    
-              p.m-top Atractivo estructural de los segmentos.
-        .list.mt-3
-          .list__item
-              .list__item__icon
-                  img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
-          .list__txt    
-              p.m-top Objetivos y recursos de la compañía.
+    .list.mt-5
+      .list__item
+          .list__item__icon
+              img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
+      .list__txt    
+          p.m-top Tamaño y crecimiento de los segmentos: obtener y analizar datos de las ventas actuales del segmento, tasas de crecimiento y rentabilidad esperada de diversos segmentos.
+    .list.mt-3
+      .list__item
+          .list__item__icon
+              img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
+      .list__txt    
+          p.m-top Atractivo estructural de los segmentos.
+    .list.mt-3
+      .list__item
+          .list__item__icon
+              img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
+      .list__txt    
+          p.m-top Objetivos y recursos de la compañía.
 
     .row.justify-content-center.align-items-center.mt-5.bg-4.p-5
       .col-auto
@@ -164,7 +164,7 @@
 
     .row.justify-content-center.align-items-stretch.mt-5
       .col-4
-        p.text-izq.t-zise Algunas compañías muestran interés en nichos específicos o en un segmento en especial; #[strong por ejemplo]
+        p.text-izq.t-size-3 Algunas compañías muestran interés en nichos específicos o en un segmento en especial; #[strong por ejemplo]
       .col-8
         p Existen demasiados competidores muy agresivos con los cuales no es posible competir para un emprendimiento; o las rentabilidades que se manejan en un determinado segmento, pueden no ser atractivas para otras empresas; o los compradores coaccionan para que el precio baje de manera importante, llegando a tener que vender a pérdida en un producto, para poder ganar un margen importante en otros.
 
@@ -179,11 +179,9 @@
 
 
     .row.justify-content-center.align-items-center.mt-5
-      .col-1    
-
       .col-auto
         img.img-a(src='@/assets/ilustraciones/img35.png', alt='')
-      .col
+      .col-5
         .p-text #[strong El producto:] para el cual se define la cantidad, la calidad, los empaques, etc.  
 
         .p-text.mt-2 #[strong El consumidor – comprador:] se intenta incrementar el segmento de clientes para el producto, ya sea diversificando el producto o potenciando la marca. 
@@ -193,20 +191,20 @@
         .p-text.mt-2 #[strong Las ventas:] se determinan los niveles de ventas que se esperan alcanzar en un periodo específico.  
 
     .mt-5.h5  4.2.3 Formulación de estrategias 
-    .row.align-items-center.mt-5
+    .row.align-items-stretch.mt-5
       .col-1    
       .col-12.col-md-2
         img.img-t.img-a(src='@/assets/ilustraciones/img32.png', alt='')
       .col-12.col-md-6
         p En esta etapa se definen las estrategias que aplicará la empresa para lograr los objetivos propuestos.
-        p Es así como después de realizar este análisis situacional, el emprendedor se decide por su segmento de mercado meta y se analiza la forma que le ayudará a llegar a este mercado.
+        p.mt-3 Es así como después de realizar este análisis situacional, el emprendedor se decide por su segmento de mercado meta y se analiza la forma que le ayudará a llegar a este mercado.
 
     p.my-5.text-center #[strong Para realizarlo puede utilizar:]
     img.img-t.img-a(src='@/assets/ilustraciones/img36.png', alt='')
     .row.my-5
       .col-auto
-        .p-text-1 Estrategias de Marketing
-    p Las estrategias de marketing pueden ser:
+        .p-text-1 #[b Estrategias de Marketing]
+    p #[b Las estrategias de marketing pueden ser:]
     ul#pills-tab.nav.nav-pills1.mt-5(role='tablist')
       li.nav-item(role='presentation')
         button#pills-1-tab.nav-link.active(data-bs-toggle='pill' data-bs-target='#pills-1' type='button' role='tab' aria-controls='pills-1' aria-selected='true') Marketing no diferenciado
@@ -236,7 +234,7 @@
 
     .row.my-5
       .col-auto
-        .p-text-1 Estrategias de posicionamiento de producto
+        .p-text-1 #[b Estrategias de posicionamiento de producto]
     p Después de definir el segmento del mercado en el que estará la empresa, se debe decidir qué posición del segmento desea ocupar. 
     .row.justify-content-center.align-items-center.my-5
       .col-9
@@ -246,7 +244,7 @@
               img(src='@/assets/ilustraciones/alert.png', alt='') 
             .col
               p La posición de un producto, es la forma en que los consumidores definen un producto con base en sus atributos importantes; es el lugar que el producto ocupa en la mente de los consumidores #[strong (recordación de marca)] en relación con los productos de la competencia. 
-
+    p #[b La acción de posicionamiento consta de tres pasos:]
     .nav-container-border.mt-5
       ul#pills-tab.nav.nav-pills2(role='tablist')
         li.nav-item(role='presentation')
@@ -259,13 +257,14 @@
 
       #pills-tabContent.tab-content
         #pills-11.tab-pane.fade.show.active.nav-border-2(role='tabpanel' aria-labelledby='pills-1-tab') 
-          .row.justify-content-center.align-items-center.mt-5
+          .row.justify-content-center.align-items-stretch.mt-5
             .col-auto
               img(src='@/assets/ilustraciones/img37.png', alt='')
             .col 
               .h6 Identificación de posibles ventajas competitivas: 
 
               p busca que el proveedor se posicione como un proveedor de producto o servicio con mayor calidad, mejor servicio, tiempos de entrega, condiciones de entrega, mejor imagen, mejor servicio post venta, etc., los cuales se deben cumplir y que no sean promesas falsas que afecten la ética empresarial. Se debe estudiar toda la experiencia con el producto o servicio ofrecido.
+              p.mt-3 Si es un producto genérico se deben identificar las características diferenciadoras, por ejemplo: las condiciones de producción, las certificaciones de calidad, condiciones de almacenamiento, transporte, etc. 
       
         #pills-12.tab-pane.fade.nav-border-2(role='tabpanel' aria-labelledby='pills-2-tab') 
           .row.justify-content-center.align-items-stretch.mt-5
@@ -286,7 +285,7 @@
               p.mt-3 #[strong Rentable:] la compañía puede recibir los beneficios económicos de promover esta diferencia (Kotler & Armstrong, 2012).
 
         #pills-13.tab-pane.fade.nav-border-2(role='tabpanel' aria-labelledby='pills-3-tab') 
-          .row.justify-content-center.align-items-center.mt-5
+          .row.justify-content-center.align-items-stretch.mt-5
             .col-auto
               img(src='@/assets/ilustraciones/img39.png', alt='')
             .col
@@ -333,14 +332,14 @@
                           .modal-dialog.modal-dialog-centered.modal-xl
                             .modal-content
                               .modal-header
-                                h5#exampleModalLabel.modal-title.text-black Indicaciones para la producción
+                                h5#exampleModalLabel.modal-title.text-black De acuerdo con la propuesta de valor, la compañia podrá posicionar sus productos y fijar un rango de precios, de la siguente manera:
                                 button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
                               .modal-body
                                 img(src='@/assets/ilustraciones/img40.png', alt='')
 
     .row.my-5
       .col-auto
-        .p-text-1 Estrategia de desarrollo de marca 
+        .p-text-1 #[b Estrategia de desarrollo de marca] 
     p La marca es uno de los principales activos perdurables de las compañías; debe ser cuidadosamente desarrollada y administrada, debido a que la marca es un nombre, un símbolo, representa la percepción y sentimientos del consumidor hacia un producto y su desempeño, es lo que está en la mente del consumidor, representa la profunda conexión con el cliente, lo que significa que tiene un alto precio.
 
     .row.justify-content-center.align-items-center.my-5
@@ -351,10 +350,10 @@
 
     .row.my-5
       .col-auto
-        .p-text-1 Estrategia de comunicación
+        .p-text-1 #[b Estrategia de comunicación]
     P Es posible dar a conocer el producto o servicio al cliente, mediante estrategias de venta y de mercadeo como: 
 
-    .list.mt-3
+    .list.mt-5
       .list__item
           .list__item__icon
               img.img-a(src="@/assets/ilustraciones/v1.svg").img-fluid  
@@ -423,7 +422,7 @@
               .h5.mb-0 Plan de Marketing
               p PDF 
             .col-sm-auto
-              a.boton.boton--b(:href="('/downloads/CF3 tema_4_plan de marketing_pag17.pdf')" target="_blank")
+              a.boton.boton--b(:href="obtenerLink('/downloads/CF3 tema_4_plan de marketing_pag17.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download             
 

@@ -14,6 +14,12 @@ export const menuPrincipal = {
       titulo: 'Volver al inicio',
     },
     {
+      nombreRuta: 'introduccion',
+      icono: 'fas fa-info',
+      titulo: 'Introducción',
+      desarrolloContenidos: true,
+    },
+    {
       nombreRuta: 'tema1',
       icono: 'far fa-file-alt',
       numero: '1',
@@ -156,62 +162,28 @@ export const creditos = {
   },
   contenidoInstruccional: [
     {
-      nombre: 'Gloria Matilde Lee Mejía',
-      cargo: 'Responsable del equipo',
-      centro: 'Centro de Comercio y Servicios',
-      regional: 'Regional Tolima',
-    },
-    {
       nombre: 'Rafael Neftalí Lizcano Reyes',
-      cargo: 'Asesor pedagógico',
+      cargo: 'Asesor metodológico y pedagógico',
       centro: 'Centro Industrial del Diseño y la Manufactura',
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Astrid Lili Puerta',
-      cargo: 'Experta temática',
-      centro: 'Centro Agropecuario de Buga',
-      regional: 'Regional valle',
-    },
-    {
-      nombre: 'Javier Enrique Santana',
-      cargo: 'Experto temático',
+      nombre: 'Vilma Lucía Perilla Méndez',
+      cargo: 'Experta y Diseñadora Instruccional',
       centro: 'Centro de Gestión Industrial',
       regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'Michael Andrés Cortés Caro',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Mauricio Jiménez Fajardo',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Manuel Alejandro Garzón Cárdenas',
-      cargo: 'Experto temático',
-      centro: 'Deutsche Gesellschaft für',
-      regional: 'Internationale Zusammenarbeit (GIZ)',
-    },
-    {
-      nombre: 'Liliana Victoria Morales Gualdrón',
-      cargo: 'Diseñador instruccional',
-      centro: 'Centro para la Industria y la Comunicación Gráfica',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Carlos Andrés Rodríguez',
-      cargo: 'Evaluador instruccional',
-      centro: 'Centro de Diseño y Metrología',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Julieth Paola Vital López',
-      cargo: 'Revisora de estilo',
+      nombre: 'Ana Catalina Córdoba Sus',
+      cargo: 'Diseñadora Instruccional',
       centro: 'Centro para la Industria de la Comunicación Gráfica',
       regional: 'Regional Distrito Capital',
+    },
+    {
+      nombre: 'María Isabel Román Rueda',
+      cargo: 'Revisora de estilo',
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
     },
   ],
   desarrolloProducto: [
@@ -221,14 +193,38 @@ export const creditos = {
     },
     {
       nombre: 'Leyson Fabian Castaño Perez',
-      cargo: 'Integración de recursos y pruebas',
+      cargo: 'Soporte organizacional',
+      centro: 'Centro de Comercio y Servicios',
+      regional: 'Regional Tolimma',
     },
     {
-      nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+      nombre: [
+        'Camilo Andrés Villamizar Lizcano',
+        'Carlos Julian Ramirez Benitez',
+        'Maria Camila Ovalle Ospina',
+        'Nelson Iván Vera Briceño',
+        'Lady Adriana Ariza Luque',
+        'Victor Raúl Cárdenas Cáceres',
+        'Wilson Andres Arenales Cáceres',
+        'Zuleidy Maria Ruiz Torres',
+      ],
       cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
     },
     {
-      nombre: 'Edward Leonardo Pico Cabra',
+      nombre: ['Zuleidy Maria Ruiz Torres'],
+      cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro de Comercio y Servicios',
+      regional: 'Regional Tolimma',
+    },
+    {
+      nombre: [
+        'Edward Leonardo Pico Cabra',
+        'Daniel Ricardo Mutis Gómez',
+        'Luis Gabriel Urueta Alvarez',
+        'Ricardo Alfonso Gonzalez Vargas',
+      ],
       cargo: 'Desarrollo Front-End',
     },
     {
@@ -238,8 +234,8 @@ export const creditos = {
   ],
   gestoresRepositorio: [
     {
-      nombre: 'Brayan Stiven Pinto Diaz',
-      cargo: ['Desarrollo front-end', 'Validación de recursos'],
+      nombre: 'Milady Tatiana Villamil Castellanos',
+      cargo: ['Validación de recursos'],
       centro: 'Centro de comercio y servicios',
       regional: 'Regional Tolima',
     },
@@ -255,26 +251,21 @@ export const referencias = [
   {
     referencia:
       'Cravens, D. & Piercy, N. (2017). Marketing Estratégico. Mc Graw Hill Interamericana.',
-    link: ' ',
   },
   {
     referencia:
       'Fischer, L. & Espejo, J.  (2008). Casos de Mercadotecnia. McGraw Hill Interamericana. ',
-    link: ' ',
   },
   {
     referencia:
       'Rosillo, J., Cruz, J. & Villarreal, J. (2002). Finanzas Corporativas. Valoración, Política de Financiamiento y Riesgo. Thomson. ',
-    link: ' ',
   },
   {
     referencia:
       'Sainz de Vicuña, J. (2012). El plan de marketing en la práctica. ESIC, Business & Marketing School. ',
-    link: ' ',
   },
   {
     referencia: 'Strauss, J. & Frost, R. (2012). E-marketing. Pearson. ',
-    link: ' ',
   },
 ]
 
