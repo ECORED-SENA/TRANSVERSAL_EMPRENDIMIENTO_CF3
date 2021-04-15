@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.complementario
   BannerInterno(icono="far fa-folder-open" titulo="Material complementario")
-  .container.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .table-responsive
       table
         thead
@@ -15,7 +15,7 @@
             td(colspan='2') {{item.tipo}}
             td(colspan='1')
               .complementario__btn
-                a(:href="item.link" target="_blank")
+                a(:href="obtenerLink(item.link)" target="_blank")
                   i.fas.fa-file-download
 
 </template>

@@ -22,7 +22,7 @@
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
-        .cajon--azul.bg-1.p-4.mb-lg-0
+        .cajon--azul.bg-1-1.p-4.mb-lg-0
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/ilustraciones/alert.png', alt='') 
@@ -240,7 +240,7 @@
     p Después de definir el segmento del mercado en el que estará la empresa, se debe decidir qué posición del segmento desea ocupar. 
     .row.justify-content-center.align-items-center.my-5
       .col-9
-        .cajon--azul.bg-1.p-4.mb-lg-0
+        .cajon--azul.bg-1-1.p-4.mb-lg-0
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/ilustraciones/alert.png', alt='') 

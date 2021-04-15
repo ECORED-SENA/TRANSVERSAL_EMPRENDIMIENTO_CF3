@@ -14,7 +14,7 @@
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
-        .cajon--azul.bg-1.p-4.mb-lg-0
+        .cajon--azul.bg-1-1.p-4.mb-lg-0
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/ilustraciones/alert.png', alt='') 
@@ -59,7 +59,7 @@
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
-        .cajon--azul.bg-1.p-4.mb-lg-0
+        .cajon--azul.bg-1-1.p-4.mb-lg-0
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/ilustraciones/alert.png', alt='') 

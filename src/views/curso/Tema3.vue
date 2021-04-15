@@ -166,7 +166,7 @@
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
-        .cajon--azul.bg-1.p-4.mb-lg-0
+        .cajon--azul.bg-1-1.p-4.mb-lg-0
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/ilustraciones/alert.png', alt='') 
@@ -183,7 +183,7 @@
                   img.img-t.img-a(src="@/assets/ilustraciones/v2.svg").img-fluid  
           .list__txt    
               p.m-top Expresa la imagen de la empresa en el futuro, explica cómo se proyecta y debe reflejar de forma clara y precisa, el enfoque hacia los grupos de interés. 
-        img.img-a.mt-3(src='@/assets/ilustraciones/img21.png', alt='')
+        img.img-t.img-a.mt-3(src='@/assets/ilustraciones/img21.png', alt='')
 
       .col-12.col-md-6.bg-2
         #carouselExampleControlsNoTouching1.carousel.slide.pb-5.text-center.mt-4(data-bs-touch='false' data-bs-interval='false')
@@ -246,7 +246,7 @@
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
-        .cajon--azul.bg-1.p-4.mb-lg-0
+        .cajon--azul.bg-1-1.p-4.mb-lg-0
           .row.justify-content-center.align-items-center
             .col-auto
               img(src='@/assets/ilustraciones/alert.png', alt='') 

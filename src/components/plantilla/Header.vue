@@ -21,14 +21,14 @@ header.header.container-fluid
 
     .col-auto(v-if="isInicio")
       router-link.boton(:to="{name: iniciarLnk.nombreRuta }")
-        span.me-1.text-inicio Iniciar
+        span.me-1 Iniciar
         i(class="fas fa-angle-right")
 
 </template>
 
 <script>
 import { global } from '../../config/global'
-import mixins from '../../mixins/mixins'
+import mixins from '../../mixins/plantillaMixins'
 export default {
   name: 'Header',
   mixins: [mixins],

@@ -54,7 +54,7 @@
 
     .row.justify-content-center.align-items-center.my-5
       .col-9
-        .cajon--azul.bg-1.p-4.mb-lg-0
+        .cajon--azul.bg-1-1.p-4.mb-lg-0
           p Los planes de negocio son utilizados como requisitos para los inversionistas o para las entidades de financiamiento de la empresa, quienes, con este documento, pueden decidir si realizan una inversión o adjudican préstamos; además, muchas organizaciones lo llevan a cabo periódicamente debido a que se convierte en una herramienta para el logro de los objetivos y el uso eficiente de los recursos empresariales.
 
     p.t-size.text-center Algunas de las #[strong ventajas] que ofrece, el plan de negocio, al emprendimiento son: 
