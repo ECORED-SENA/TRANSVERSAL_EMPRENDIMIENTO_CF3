@@ -345,8 +345,40 @@
                               .modal-header
                                 h5#exampleModalLabel.modal-title.text-black De acuerdo con la propuesta de valor, la compañia podrá posicionar sus productos y fijar un rango de precios, de la siguente manera:
                                 button.btn-close(type='button' data-bs-dismiss='modal' aria-label='Close')
-                              .modal-body
-                                img(src='@/assets/ilustraciones/img40.png', alt='')
+                              .modal-body.text-black
+                                .row.justify-content-center.align-items-center.mb-5.px-3
+                                  .col-1.a-text
+                                    p.p-h.text-black.text-center BENEFICIOS
+                                  .col-11
+                                    .tabla-a
+                                      table
+                                        thead
+                                        tr
+                                          th.text-black.border-table-b(colspan='4') PRECIO
+                                        tr
+                                          th.text-black.border-table.b-table 
+                                          th.text-black.border-table.b-table Más
+                                          th.text-black.border-table.b-table Lo mismo
+                                          th.text-black.border-table.b-table Menos
+                                        tbody
+                                          tr
+                                            th.text-black.border-table.b-table Más
+                                            td.text-black.border-table Más por más: implica ofrecer el mejor producto o servicio y cobrar el precio más alto para cubrir los costos elevados.
+                                            td.text-black.border-table Más por lo mismo:  ofrecer el mismo producto o servicio al mismo precio.
+                                            td.text-black.border-table Más por menos:  ofrecer el mismo producto a un menor prefio.
+                                            
+                                          tr
+                                            th.text-black.border-table.b-table Lo mismo
+                                            td.text-black.border-table.b-table 
+                                            td.text-black.border-table.b-table 
+                                            td.text-black.border-table Lo mismo por menos: ofrecer un producto o servicio de menores condiciones, a un precio muy bajo.
+
+                                          tr
+                                            th.text-black.border-table.b-table Menos
+                                            td.text-black.border-table.b-table 
+                                            td.text-black.border-table.b-table 
+                                            td.text-black.border-table Menos por mucho menos: ofrecer un producto o servicio de menores condidiones a un muy bajo precio.
+
 
     .row.my-5
       .col-auto
