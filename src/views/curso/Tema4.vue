@@ -14,7 +14,7 @@
           .col-3       
             .sub-ecored
               h2.mb-0      
-        .h4.t-size Factores externos de mercado.
+        .h4.t-size Factores externos de mercado
         p Son las variables del entorno que no se pueden controlar desde la empresa e inciden de manera directa e indirecta en la comercialización, como las leyes, el medio ambiente, la situación política, cultural y social, la competencia, los segmentos y los avances tecnológicos entre otros. 
 
     .row.justify-content-center.align-items-center.mt-5
@@ -23,7 +23,7 @@
           .col-3       
             .sub-ecored
               h2.mb-0        
-        .h4.t-size.text-izq Factores internos de mercado.
+        .h4.t-size.text-izq Factores internos de mercado
         p.text-izq Son aquellos elementos controlables por la empresa que se aplican para satisfacer las necesidades del consumidor: precio, producto, promoción y distribución, también conocidos como el mix de marketing. 
       .col-12.col-md-6
         img.img-t.img-a(src='@/assets/ilustraciones/img27.png', alt='')
@@ -79,65 +79,66 @@
 
     p.mt-5 #[strong Los propósitos del plan de marketing son: ]
 
-    .row.space.align-items-stretch.mt-5
-      .col-12.col-md-3.card-white
-        .row
-          .col-auto
-            img.img-t.mt-2(src='@/assets/ilustraciones/a.svg', alt='') 
-            p.mt-3 Definir el segmento de mercado en el que el emprendimiento centrará sus actividades.
-      
-      .col-12.col-md-3.card-white
-        .row
-          .col-auto
-            img.img-t.mt-2(src='@/assets/ilustraciones/b.svg', alt='')  
-            p.mt-3 Definir las variables del mix de marketing.     
-      .col-12.col-md-3.card-white
-        .row
-          .col-auto
-            img.img-t.mt-2(src='@/assets/ilustraciones/c.svg', alt='') 
-            p.mt-3 Alinear los objetivos estratégicos con el plan financiero.
+    .row.justify-content-center
+      .col-10
+        .row.space.align-items-stretch
+          .col-12.col-md-3.card-white.mt-5
+            .row
+              .col-auto
+                img.img-t.mt-2(src='@/assets/ilustraciones/a.svg', alt='') 
+                p.mt-3 Definir el segmento de mercado en el que el emprendimiento centrará sus actividades.
+          
+          .col-12.col-md-3.card-white.mt-5
+            .row
+              .col-auto
+                img.img-t.mt-2(src='@/assets/ilustraciones/b.svg', alt='')  
+                p.mt-3 Definir las variables del mix de marketing.     
+          .col-12.col-md-3.card-white.mt-5
+            .row
+              .col-auto
+                img.img-t.mt-2(src='@/assets/ilustraciones/c.svg', alt='') 
+                p.mt-3 Alinear los objetivos estratégicos con el plan financiero.
       
     .mt-5#t_4_2
       .h4 4.2 Etapas del plan de marketing
     p El plan de marketing se desarrolla en varias etapas: 
     .row.justify-content-center.align-items-stretch.mt-5
-      .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
+      .col-8.col-md-2.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
               img.img-t.img-a(src='@/assets/ilustraciones/img30.png', alt='')
         p.text-center Análisis de la situación actual
 
-      .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1    
+      .col-8.col-md-2.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1    
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
               img.img-t.img-a(src='@/assets/ilustraciones/img31-1.png', alt='')
         p.text-center Planificación de objetivos para el iguiente periodo
 
-      .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
+      .col-8.col-md-2.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
               img.img-t.img-a(src='@/assets/ilustraciones/img32.png', alt='')
         p.text-center Formulación de estrategias
 
-    .row.justify-content-center.align-items-stretch
-      .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1        
+      .col-8.col-md-2.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1        
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
               img.img-t.img-a(src='@/assets/ilustraciones/img33.png', alt='')
         p.text-center Presupuesto comercial
 
-      .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
+      .col-8.col-md-2.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
               img.img-t.img-a(src='@/assets/ilustraciones/img34.png', alt='')
-        p.text-center.mt-5 Control y seguimiento
+        p.text-center Control y seguimiento
 
-    p.text-center Profundicemos el estudio de cada una de las etapas.       
+    p.text-center.mt-3 #[b Profundicemos el estudio de cada una de las etapas. ]      
 
     .mt-5.h5 4.2.1 Análisis de la situación actual 
     .row.justify-content-center.align-items-center.mt-5
@@ -227,20 +228,20 @@
 
     #pills-tabContent.tab-content
       #pills-1.tab-pane.fade.show.active.nav-border-1(role='tabpanel' aria-labelledby='pills-1-tab') 
-        .h4 Marketing no diferenciado o marketing masivo: 
-        p se omiten las diferencias entre los segmentos del mercado y trata de llegar a todo el mercado con la misma oferta.
+        .h4 Marketing no diferenciado o marketing masivo 
+        p Se omiten las diferencias entre los segmentos del mercado y trata de llegar a todo el mercado con la misma oferta.
     
       #pills-2.tab-pane.fade.nav-border-1(role='tabpanel' aria-labelledby='pills-2-tab') 
-        .h4 Marketing diferenciado o segmentado: 
-        p cuando se decide llegar a varios segmentos y se ofrece una oferta individual para cada segmento o nicho de mercado.
+        .h4 Marketing diferenciado o segmentado 
+        p Cuando se decide llegar a varios segmentos y se ofrece una oferta individual para cada segmento o nicho de mercado.
         
       #pills-3.tab-pane.fade.nav-border-1(role='tabpanel' aria-labelledby='pills-3-tab') 
-        .h4 Marketing concentrado o de nicho: 
-        p se utiliza cuando se quiere llegar solo a un mercado nicho y no se cuenta con los recursos suficientes para atender todos los segmentos de igual forma o cuando se quiere ser el jugador principal en un solo mercado.
+        .h4 Marketing concentrado o de nicho 
+        p Se utiliza cuando se quiere llegar solo a un mercado nicho y no se cuenta con los recursos suficientes para atender todos los segmentos de igual forma o cuando se quiere ser el jugador principal en un solo mercado.
 
       #pills-4.tab-pane.fade.nav-border-1(role='tabpanel' aria-labelledby='pills-4-tab') 
-        .h4 Micro marketing: 
-        p adapta los productos o servicios y programas de marketing a los gustos de los individuos y lugares específicos.
+        .h4 Micro marketing 
+        p Adapta los productos o servicios y programas de marketing a los gustos de los individuos y lugares específicos.
 
     .row.my-5
       .col-auto
@@ -271,9 +272,9 @@
             .col-auto
               img(src='@/assets/ilustraciones/img37.png', alt='')
             .col 
-              .h6 Identificación de posibles ventajas competitivas: 
+              .h6 Identificación de posibles ventajas competitivas
 
-              p busca que el proveedor se posicione como un proveedor de producto o servicio con mayor calidad, mejor servicio, tiempos de entrega, condiciones de entrega, mejor imagen, mejor servicio post venta, etc., los cuales se deben cumplir y que no sean promesas falsas que afecten la ética empresarial. Se debe estudiar toda la experiencia con el producto o servicio ofrecido.
+              p Busca que el proveedor se posicione como un proveedor de producto o servicio con mayor calidad, mejor servicio, tiempos de entrega, condiciones de entrega, mejor imagen, mejor servicio post venta, etc., los cuales se deben cumplir y que no sean promesas falsas que afecten la ética empresarial. Se debe estudiar toda la experiencia con el producto o servicio ofrecido.
               p.mt-3 Si es un producto genérico se deben identificar las características diferenciadoras, por ejemplo: las condiciones de producción, las certificaciones de calidad, condiciones de almacenamiento, transporte, etc. 
       
         #pills-12.tab-pane.fade.nav-border-2(role='tabpanel' aria-labelledby='pills-2-tab') 
@@ -281,8 +282,8 @@
             .col-auto
               img(src='@/assets/ilustraciones/img38.png', alt='')
             .col
-              .h6 Seleccionar la ventaja competitiva correcta: 
-              p.mt-3 se debe decidir cuántas y cuáles diferencias se van a promover; puede que se quiera promover solo una característica del producto, pero también se pueden promover varias características en un solo producto. Por ejemplo: una empresa quiere promover su marca de jabón donde las características principales son: que cuida su ropa y dura más, pero otra empresa puede desarrollar su estrategia como una marca que rinde más, cuida su ropa y no daña el medio ambiente, tres características que se promocionan en el mismo producto. Las características “rinde más y cuida su ropa”, ataca el ingreso económico del comprador, “no daña el medio ambiente” promueve la responsabilidad social del individuo, por lo que puede lograr un mejor posicionamiento que el primer producto.
+              .h6 Seleccionar la ventaja competitiva correcta
+              p.mt-3 Se debe decidir cuántas y cuáles diferencias se van a promover; puede que se quiera promover solo una característica del producto, pero también se pueden promover varias características en un solo producto. Por ejemplo: una empresa quiere promover su marca de jabón donde las características principales son: que cuida su ropa y dura más, pero otra empresa puede desarrollar su estrategia como una marca que rinde más, cuida su ropa y no daña el medio ambiente, tres características que se promocionan en el mismo producto. Las características “rinde más y cuida su ropa”, ataca el ingreso económico del comprador, “no daña el medio ambiente” promueve la responsabilidad social del individuo, por lo que puede lograr un mejor posicionamiento que el primer producto.
 
               p.mt-3 Es importante tener en cuenta qué diferencias se deben promover para el producto, ya que no todas las características son relevantes o sirven como un diferenciador adecuado; para concretar se debe estimar si la diferencia es:  
 
@@ -307,25 +308,25 @@
               .list.mt-3
                 .list__item
                     .list__item__number
-                        span 1 
+                        span 1. 
                 .list__txt    
                     p Precio técnico (costo Unitario + gasto unitario).
               .list.mt-3
                 .list__item
                     .list__item__number
-                        span 2
+                        span 2.
                 .list__txt    
                     p Precio óptimo (precio técnico + utilidad esperada).
               .list.mt-3
                 .list__item
                     .list__item__number
-                        span 3
+                        span 3.
                 .list__txt    
                     p Precio de aceptación (el cliente está dispuesto a pagar entre X y Y).
               .list.mt-3
                 .list__item
                     .list__item__number
-                        span 4
+                        span 4.
                 .list__txt    
                     p Precio de competencia (mapeo de precios de la competencia).
               .tarjeta.tarjeta--morada.bg-2.p-3.mt-5

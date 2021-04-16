@@ -86,7 +86,7 @@
 
     .row.justify-content-center.align-items-stretch.mt-5
       .col-12.col-md-4
-        p esto solo es posible mediante la organización de recursos físicos y la coordinación de actividades que el capital humano debe llevar a cabo y, de esta forma, la organización busca la eficiencia y la coordinación de los recursos.
+        p Esto solo es posible mediante la organización de recursos físicos y la coordinación de actividades que el capital humano debe llevar a cabo y, de esta forma, la organización busca la eficiencia y la coordinación de los recursos.
       .col-12.col-md-7
         .row
           .col-12.mb-5.mb-lg-0
