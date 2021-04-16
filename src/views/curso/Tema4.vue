@@ -10,11 +10,19 @@
       .col-12.col-md-6
         img.img-t.img-a(src='@/assets/ilustraciones/img26.png', alt='')
       .col-12.col-md-6
+        .row.justify-content-start
+          .col-3       
+            .sub-ecored
+              h2.mb-0      
         .h4.t-size Factores externos de mercado.
         p Son las variables del entorno que no se pueden controlar desde la empresa e inciden de manera directa e indirecta en la comercialización, como las leyes, el medio ambiente, la situación política, cultural y social, la competencia, los segmentos y los avances tecnológicos entre otros. 
 
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
+        .row.justify-content-end
+          .col-3       
+            .sub-ecored
+              h2.mb-0        
         .h4.t-size.text-izq Factores internos de mercado.
         p.text-izq Son aquellos elementos controlables por la empresa que se aplican para satisfacer las necesidades del consumidor: precio, producto, promoción y distribución, también conocidos como el mix de marketing. 
       .col-12.col-md-6
@@ -31,11 +39,13 @@
 
     .mt-5#t_4_1
       .h4 4.1 Plan de marketing
-    p El plan de marketing es un documento que regula la política comercial de la empresa en un plazo determinado, en el cual se mide:
+    .row
+      .col-7     
+        p El plan de marketing es un documento que regula la política comercial de la empresa en un plazo determinado, en el cual se mide:
   
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-6
-        img.img-t.img-a(src='@/assets/ilustraciones/img27.png', alt='')
+        img.img-t.img-a(src='@/assets/ilustraciones/img27-1.png', alt='')
       .col-12.col-md-6
         .list.mt-3
           .list__item
@@ -102,7 +112,7 @@
         .row.justify-content-center.align-items-center.mb-3
           .col-7
             figure
-              img.img-t.img-a(src='@/assets/ilustraciones/img31.png', alt='')
+              img.img-t.img-a(src='@/assets/ilustraciones/img31-1.png', alt='')
         p.text-center Planificación de objetivos para el iguiente periodo
 
       .col-4.mb-4.mb-lg-0.tarjeta.tarjeta--boton.p-4.border-1       
@@ -132,7 +142,7 @@
     .mt-5.h5 4.2.1 Análisis de la situación actual 
     .row.justify-content-center.align-items-center.mt-5
       .col-auto
-        img.img-a(src='@/assets/ilustraciones/img30.png', alt='')
+        img.img-a(src='@/assets/ilustraciones/img30-1.png', alt='')
       .col
         p En esta sección se analizan los resultados obtenidos con la aplicación de las políticas de producto, precio, promoción y distribución, adoptadas para atender el mercado. Así mismo, se realiza el análisis del cumplimiento de metas frente a los objetivos planeados, y se realiza la evaluación del segmento del mercado con respecto a: 
     .list.mt-5
@@ -194,7 +204,7 @@
     .row.align-items-stretch.mt-5
       .col-1    
       .col-12.col-md-2
-        img.img-t.img-a(src='@/assets/ilustraciones/img32.png', alt='')
+        img.img-t.img-a(src='@/assets/ilustraciones/img32-1.png', alt='')
       .col-12.col-md-6
         p En esta etapa se definen las estrategias que aplicará la empresa para lograr los objetivos propuestos.
         p.mt-3 Es así como después de realizar este análisis situacional, el emprendedor se decide por su segmento de mercado meta y se analiza la forma que le ayudará a llegar a este mercado.

@@ -209,7 +209,7 @@
         .carousel-item
           .row.justify-content-center.align-items-center
             .col-9           
-              img.t-img.img-a(src='@/assets/ilustraciones/desventajas/6.svg', alt='')
+              img.t-img.img-a(src='@/assets/ilustraciones/desventajas/7.svg', alt='')
               p.my-4 Si se contrata a un experto para que desarrolle este plan de negocios, puede llegar a ser una opción muy costosa para el emprendedor.
 
       button.carousel-control-prev(type='button' data-bs-target='#carouselExampleControlsNoTouching1' data-bs-slide='prev')
