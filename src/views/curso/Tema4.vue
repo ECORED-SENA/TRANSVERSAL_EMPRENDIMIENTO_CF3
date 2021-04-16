@@ -349,7 +349,7 @@
                                 .row.justify-content-center.align-items-center.mb-5.px-3
                                   .col-1.a-text
                                     p.p-h.text-black.text-center BENEFICIOS
-                                  .col-11
+                                  .col-9
                                     .tabla-a
                                       table
                                         thead
